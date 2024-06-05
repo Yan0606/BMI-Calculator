@@ -13,8 +13,8 @@ const styles = StyleSheet.create({
 
 
     },
-    form:{
-        width:"100%",
+    form: {
+        width: "100%",
         height: "auto",
         marginTop: 30,
         padding: 10,
@@ -25,15 +25,15 @@ const styles = StyleSheet.create({
         fontSize: 18,
         paddingLeft: 20,
     },
-    input:{
+    input: {
         widht: "90%",
         borderRadius: 50,
         backgroundColor: "#f6f6f6",
-        height:40,
+        height: 40,
         margin: 12,
         paddingLeft: 10,
     },
-    buttonCalculator:{
+    buttonCalculator: {
         borderRadius: 50,
         alignItems: "center",
         justifyContent: "center",
@@ -45,9 +45,15 @@ const styles = StyleSheet.create({
         margin: 30,
     },
 
-    textButtonCalculator:{
-        fontSize:20,
+    textButtonCalculator: {
+        fontSize: 20,
         color: "#ffffff",
+    },
+    errorMessage: {
+        fontSize: 12,
+        color: 'red',
+        fontWeight: 'bold',
+        paddingLeft: 20,
     }
 })
 
